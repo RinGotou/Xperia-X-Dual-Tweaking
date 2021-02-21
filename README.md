@@ -1,7 +1,7 @@
 # Xperia X Dual (F5122/suzu) Tweaking
 
 ## Celluar/Calling
-Sony introduced VoLTE support for this device in Android 7.0 firmware, but this device doesn't sell this device in China mainland, so I can't use VoLTE on this phone for a long time.
+Sony introduced VoLTE support for this device in Android 7.0 firmware, but Sony doesn't sell this device in China mainland, so I can't use VoLTE on this phone for a long time.
 ### Android 7.0/7.1
 I try to enable VoLTE in Android 7.1 firmware by:
 
