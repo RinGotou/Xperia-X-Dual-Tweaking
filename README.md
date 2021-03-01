@@ -16,9 +16,9 @@ Flash these contents from Xperia XZs(CT_v1_xzs.zip) from [_this thread_](https:/
 But this package will modify your device boot animation into Xperia XZs version, and change some system prop value (e.g. ro.product.*). For restoring, we need to backup two files and copy them into original location after flashing:
 - /oem/media/bootanimation.zip
 - /oem/system-properties/cust.prop
+- /oem/system-properties/config.prop
 
-NOTICE:Do not restore /oem/system-properties/config.prop, my device cannot pass CTS profile checking (with magisk hide enabled) because of broken value of ro.product.name / ro.product.device / ro.product.fingerprint
-(maybe).
+NOTICE:Set corrent permission for these file aftr restoring!
 
 ## Debloating
 Yes, Sony puts MANY BLOATWARES into their smartphone products.
