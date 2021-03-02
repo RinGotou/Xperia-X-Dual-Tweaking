@@ -18,7 +18,7 @@ But this package will modify your device boot animation into Xperia XZs version,
 - /oem/system-properties/cust.prop
 - /oem/system-properties/config.prop
 
-NOTICE:Set corrent permission for these file aftr restoring!
+NOTICE:Set correct permission for these file aftr restoring!
 
 ## Debloating
 Yes, Sony puts MANY BLOATWARES into their smartphone products.
@@ -50,9 +50,14 @@ __2. If you unlocked your phone and didn't backup__:
 
 Just give up, everything is gone, use DRM Fix solution instead.
 
-### Third-Party Firmware with original OEM image
-
 ### Third-Party Firmware with ODM image from Xperia Open Device
+Sony releases the kernel source code and ODM image on their open device sites, but there's some common problems on this device:
 
-## Trim Area PoC, DRM Fix
+- Bad color reproduction. If you use TWRP for this model, as you can see, the screen is purple-tinted/red-tinted, even worse than the original firmware. They provide an advaned option utility for third-party android firmware, but none of the color temperature presets can adjust screen into a comfortable state.
+- Audio output(3.5mm headphone jack) quality is worse than stock firmware. Distortion is more obvious.
+
+So, I don't recommend any ODM-Image-Based third-party firmware for daily usage. (To tell the truth, nobody want to use this device as daily driver in 2021, right?)
+
+### Third-Party Firmware with original OEM image
+There's an unfficial port of LineageOS 16 for Xperia X, you can find it in XDA. The color reproduction and audio are working correctly on this firmware, but I can't find any solution for VoLTE for now.
 
